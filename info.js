@@ -16,6 +16,12 @@ const canVote = (person) => {
     return false
   }
 }
+/* const canVote = (person) => {
+return person.age > majorityAge ? true : false
+} 
+*/
+
+
 
 const mostSkilledDev = (person1, person2) => {
   // person1 et person2 sont deux objects passés en paramettres

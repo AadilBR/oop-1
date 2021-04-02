@@ -29,6 +29,10 @@ class Human {
   mostSkilledDev(person) {
 
     // le premier parametre est this et person est le second parametre
+    // créer des variables pour que ce soit plus court dans la suite du code
+    //const length1 = this.language.length
+    //const length2 = person.language.length
+
 
     if (this.language.length > person.language.length) {
       return this.firstName
